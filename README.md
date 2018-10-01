@@ -79,4 +79,30 @@ module.exports = config;
 
 Create a **index.html** file in root of your project and add **build/bundle.js** as src in <script /> tag
 
-and open that **index.html** in browser and hoff over to console and see the log which should be '15' 
+and open that **index.html** in browser and hoff over to console and see the log which should be '15'
+
+
+## introduction to Loaders
+
+- Babel   - Turn ES2015 code into ES code
+- Webpack - Link up JS modules together
+
+we will add babel in our project and wire that up as a module Loader there are three different
+module that we need to install to get babel up and running.
+
+``Module``  ||  ``Purpose``
+1.  babel-loader      || Teaches babel how to work with webpack
+2.  babel-core        || Knows how to take in code, parse it, and generate some output files
+3.  babel-preset-env  || Ruleset for telling babel exactly what pieces of ES2015/6/7 Syntex to look
+                        for,and how to turn it into ES5 code.
+
+```
+  npm install --save-dev babel-loader babel-core babel-preset-env
+
+```
+
+**if you get error** Read that error carefully. chances are you need to install
+
+```
+  npm i --save-dev babel-loader@7
+```
