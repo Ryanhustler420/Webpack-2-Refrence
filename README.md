@@ -76,3 +76,7 @@ module.exports = config;
 ``note:- never install npm install -g webpack ``
 
 > it will build randomly any project in your computer
+
+Create a **index.html** file in root of your project and add **build/bundle.js** as src in <script /> tag
+
+and open that **index.html** in browser and hoff over to console and see the log which should be '15' 
