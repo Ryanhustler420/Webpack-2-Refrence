@@ -51,4 +51,22 @@ to link them.
   npm i --save-dev webpack@2.2.0-rc.0
 ```
 
+``webpack.config.js``
+
+```javaScript
+
+const path = require('path');
+
+const config = {
+  entry:'./src/index.js',
+  output:{
+    path: path.resolve(__dirname + 'build'),
+    filename: 'bundle.js'
+  }
+};
+
+module.exports = config;
+
+```
+
 4)  Run Webpack
