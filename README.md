@@ -70,3 +70,9 @@ module.exports = config;
 ```
 
 4)  Run Webpack
+
+> to run webpack we need a Script in **package.json** file which will than use from command line interface
+
+``note:- never install npm install -g webpack ``
+
+> it will build randomly any project in your computer
