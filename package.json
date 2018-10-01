@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ryanhustler420/Webpack-2-Refrence/issues"
   },
-  "homepage": "https://github.com/Ryanhustler420/Webpack-2-Refrence#readme"
+  "homepage": "https://github.com/Ryanhustler420/Webpack-2-Refrence#readme",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
 }

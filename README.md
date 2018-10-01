@@ -46,4 +46,9 @@ to link them.
 - ``ES2015 Spec`` modern web development going toward ``ES2015`` because the functionality of it
 
 3)  Install and configure webpack
+
+```
+  npm i --save-dev webpack@2.2.0-rc.0
+```
+
 4)  Run Webpack
