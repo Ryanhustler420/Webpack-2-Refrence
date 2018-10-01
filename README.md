@@ -137,3 +137,9 @@ Lets make changes in **sum.js** & **index.js** and convert import and export sta
 ```
   npm install --save-dev style-loader css-loader
 ```
+
+> The Extract Text Plugin for that run this command
+
+```
+npm install --save-dev extract-text-webpack-plugin@2.0.0-beta.4
+```
