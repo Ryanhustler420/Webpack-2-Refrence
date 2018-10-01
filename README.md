@@ -124,3 +124,16 @@ Lets make changes in **sum.js** & **index.js** and convert import and export sta
 ```javaScript
   export default sum;
 ```
+
+## the Style and CSS Loaders
+
+> To work with css we need to install two new modules
+
+1.  **css-loader** || Knows how to deal with CSS imports
+2.  **style-loader** || takes CSS imports and adds them to the HTML document
+
+> as a side Note: these are just transpiler (source to source compiler)
+
+```
+  npm install --save-dev style-loader css-loader
+```

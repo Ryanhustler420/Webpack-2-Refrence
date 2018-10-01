@@ -1,3 +1,4 @@
+import '../styles/image_Viewer.css';
 const image = document.createElement('img');
 image.src = "https://loremflickr.com/400/400/paris";
 
