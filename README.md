@@ -143,3 +143,18 @@ Lets make changes in **sum.js** & **index.js** and convert import and export sta
 ```
 npm install --save-dev extract-text-webpack-plugin@2.0.0-beta.4
 ```
+
+# Loader for handling image's with webpack
+
+the purpose of URL Loader to take the image and copy it over to build folder.
+
+```
+npm install --save-dev image-webpack-loader url-loader`
+
+```
+
+``OR``
+
+```
+npm install --save-dev file-loader
+```

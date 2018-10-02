@@ -1,5 +1,13 @@
+import big from '../assets/big.jpg';
+import small from '../assets/small.jpg';
 import '../styles/image_Viewer.css';
+
 const image = document.createElement('img');
-image.src = "https://loremflickr.com/400/400/paris";
+image.src = small;
 
 document.body.appendChild(image);
+
+const bigimage = document.createElement('img');
+bigimage.src = big;
+
+document.body.appendChild(bigimage);
