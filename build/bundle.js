@@ -149,9 +149,10 @@
 var button = document.createElement('button');
 button.innerText = "Click Me";
 button.onclick = function () {
-    __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, 0)).then(function (module) {
-        console.log(module);
-    });
+  __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, 0)).then(function (module) {
+    // console.log(module);
+    module.default();
+  });
 };
 
 document.body.appendChild(button);
