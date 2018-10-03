@@ -158,3 +158,10 @@ npm install --save-dev image-webpack-loader url-loader`
 ```
 npm install --save-dev file-loader
 ```
+# Code Splitting
+
+Meaning loading of JavaScript chunk by chunk
+for example Only load minimum amount of JS necessary to show a login form after than
+Logged in ? Ok, now load the rest of JavaScript.
+
+> it cause delay but, the point is to load as less JavaScript as possible.
